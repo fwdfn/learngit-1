@@ -1,0 +1,4 @@
+廖老师的git教程系列也快学完了，总体来说是非常不错的，借着pull request的东风，讲一个自己在学习的过程中遇到的一个问题。
+在学习git前我仅仅知道svn，git，但对这2个东西，完全不懂，此为背景。
+我在学习创建版本库-把文件添加到版本库这块内容时，对编写一个readme.txt文件不理解,$ git add readme.txt一直报错，对于如何编写readme.txt是懵的，
+研究半天才知道需要我先创建一个文件readme.txt而创建有2种方式，一种是在工作区里新建一个readme.txt，另一种则是使用命令$ touch readme.txt，然后再使用$ git add readme.txt将其添加到版本库。
